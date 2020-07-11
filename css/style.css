@@ -29,7 +29,6 @@ ul {
 #header {
     box-sizing: border-box;
     min-width: 768px;
-    width: 1200px;
     padding: 0 20px;
     margin: 0 auto;
     display: flex;
@@ -77,7 +76,6 @@ ul {
     margin: 0 10px;
 }
 #contents {
-    width: 1200px;
     padding-top: 10px;
     margin: 0 auto;
     display: flex;
@@ -111,7 +109,6 @@ input[name="switch"] {
 #sidebar {
     flex: 1;
     margin: 0 30px;
-    max-width: 350.25px;
 }
 .widget:first-of-type {
     margin-bottom: 30px !important;
