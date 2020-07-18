@@ -78,6 +78,11 @@ h2 {
     color: #f4f4f4;
     margin: 0 10px;
 }
+@media (min-width: 1200px) {
+    #contents {
+        width: 1200px;
+    }
+}
 #contents {
     padding-top: 10px;
     margin: 0 auto;
@@ -101,7 +106,7 @@ input[name="switch"] {
     text-align: center;
 }
 .tabBtn-mag li [for="tab-1"] {
-    background-color: #0a0a0a;
+    background-color: #0c0000;
     color: #fff;
     position: relative;
 }
@@ -117,6 +122,7 @@ input[name="switch"] {
     border-top: 8px solid #2b2b2b;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
+    border-top-color: #0c0000;
 }
 .tabBtn-mag li:not(:first-child) {
     margin-left: 4px;
