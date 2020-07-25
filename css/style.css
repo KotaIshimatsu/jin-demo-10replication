@@ -587,7 +587,7 @@ footer .footer-inner {
     }
 }
 .swiper-container {
-    height: 210px;
+    height: auto;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
