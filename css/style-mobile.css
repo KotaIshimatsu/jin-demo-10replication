@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+    #contents {
+        display: block;
+    }
+    .tabBtn-mag {
+        flex-wrap: wrap;
+    }
+    .tabBtn-mag li {
+        width: calc(50% - 2px);
+        margin-bottom: 4px;
+    }
+    .tabBtn-mag li:not(:first-child) {
+        margin-left: 0;
+    }
+    .tabBtn-mag li:nth-child(2n-1) {
+        margin-right: 4px;
+    }
+    #main-contents {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sidebar_style2 .widget {
+        padding: 0;
+    }
+}
